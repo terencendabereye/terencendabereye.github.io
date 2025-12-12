@@ -40,6 +40,10 @@
     <p>Works offline · Add to Home Screen</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js">
+    if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+  </script>
 </body>
 </html>
