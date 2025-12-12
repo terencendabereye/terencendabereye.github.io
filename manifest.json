@@ -1,10 +1,10 @@
 {
   "name": "Linear Interpolator",
   "short_name": "Interpolator",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "background_color": "#1a0d2e",
+  "theme_color": "#1a0d2e",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -15,6 +15,12 @@
       "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
