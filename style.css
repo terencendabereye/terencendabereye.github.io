@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f5f5f7;
+  color: #222;
+}
+
+header {
+  padding: 16px;
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+main {
+  padding: 12px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn:active {
+  background: #1e4fb7;
+}
+
+.delete-btn {
+  background: #e11d48;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
